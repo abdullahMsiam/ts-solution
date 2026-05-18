@@ -2,7 +2,8 @@
 
 # Unknown is more safer than Any type
 ##  any type is not check for the type of variable. It used to take anything like number, string, object etc. It will not do verify the types and that will make a runtime error. But unkonow is demand a varification of given values type. Unknown is help for type narrowing with type checking like that: 
-`function process(value: unknown) {
+```ts
+function process(value: unknown) {
   if (typeof value === "string") {
     // narrowed to string
     console.log(value.toUpperCase());
@@ -13,4 +14,4 @@
     console.log("not string or number");
   }
 }
-`
+```
