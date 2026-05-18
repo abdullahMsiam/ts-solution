@@ -35,7 +35,7 @@ function checkType(input: StringOrNumber): string {
         return "Number";
     }; 
 }
-checkType("Hello");
+checkType("Hello"); 
 
 // >>>>>>>>>>>>>>>> problem 4 >>>>>>>>>>>
 // Write a generic function getProperty that takes an object and a key, then returns the value of that key. Use constraints to ensure the key exists on the object.
